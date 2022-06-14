@@ -1,5 +1,5 @@
 :root {
-    --branco: #F5F5F5;
+    --branco: #ffffff;
     --cinza: #ABABAB;
     --azul1: #6fbdf1;
     --azul2: #0050acb6;
@@ -91,7 +91,6 @@ header {
 
 .icone:hover {
     opacity: 0.75;
-    zoom: 120%;
 }
 
 .grid {
@@ -150,9 +149,7 @@ header {
 
 .rd3 p {
     text-align: justify;
-    margin-left: 40px;
-    margin-right: 40px;
+    padding-left: 3%;
+    padding-right: 3%;
 
 }
-
-
