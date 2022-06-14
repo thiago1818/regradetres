@@ -79,7 +79,7 @@ header {
 }
 
 .link-menu-item:hover {
-    color: var(--azul3);
+    color: var(--azul1);
     opacity: 0.8;
     border-bottom: 1px solid var(--blue3);
 }
