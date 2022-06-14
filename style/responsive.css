@@ -74,12 +74,17 @@
         gap: 0;
     }
 
+    .texto-rd3>h2, .rd3 h2{
+        font-size: 1.2em;
+    }
+
     .section-rd3{
         margin-left: 0px;
         margin-right: 0px;
     }
 
     .texto-rd3{
+        font-size: 1em;
         margin-left: 0px;
         margin-right: 0px;
     }

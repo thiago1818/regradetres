@@ -99,17 +99,6 @@ header {
     margin: 20px;
 }
 
-.grid h3 {
-    font-size: 2em;
-    margin-bottom: 0px;
-
-}
-
-.grid p {
-    font-size: 1.4em;
-    text-align: justify;
-}
-
 
 .texto-rd3>h2 {
     color: #002D61;
@@ -124,6 +113,7 @@ header {
     font-size: 1.2em;
     margin-left: 80px;
     margin-right: 80px;
+    text-align: justify;
 }
 
 .section-rd3 {
@@ -146,10 +136,6 @@ header {
     gap: 20px;
 }
 
-div.rd3 p{
-    margin-left: 40px;
-    margin-right: 40px;
-}
 
 .rd3 {
     background-color: white;
@@ -164,11 +150,9 @@ div.rd3 p{
 
 .rd3 p {
     text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
 
 }
 
-.rd3 img {
-    width: 300px;
-    border-radius: 50%;
-}
 
