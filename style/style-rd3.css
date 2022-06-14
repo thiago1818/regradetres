@@ -1,0 +1,112 @@
+
+input#number {
+    display: block;
+    width: 100%;
+    margin: 0 0 10px;
+}
+
+
+div.calc-rd3 {
+    text-align: center;
+    padding: 10px;
+}
+
+div.resultado1,
+.resultado2 {
+    display: inline-block;
+    font-size: 40px;
+    background-color: var(--result);
+    border-radius: 5px;
+    color: white;
+    width: 200px;
+    transition: .3s;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+div.input {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.input-num {
+    display: inline-block;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid black;
+    width: 200px;
+    height: 90px;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.300);
+    text-align: center;
+    font-size: 40px;
+}
+
+div>span {
+    /*ESTÁ PARA*/
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    background-color: #51afed93;
+    padding-left: 5px;
+    margin: auto 0px;
+    padding: 2px 8px;
+    text-transform: uppercase;
+}
+
+#assimcomo {
+    /*ASSIM COMO*/
+    font-size: 17px;
+    color: #4CA5E0;
+    font-weight: bold;
+    padding-left: 5px;
+    margin: auto 0px;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media screen and (max-width: 1400px) {
+
+    div.resultado1,
+    .resultado2 {
+        width: 140px;
+        height: 80px;
+        font-size: 26px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+
+    .input-num {
+        font-size: 26px;
+        width: 140px;
+        height: 80px;
+    }
+
+    @media screen and (max-width: 635px) {
+
+        div.input {
+            margin-left: 0;
+            padding-left: 0;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        div.resultado1,
+        .resultado2 {
+            width: 120px;
+            height: 70px;
+            font-size: 22px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .input-num {
+            font-size: 22px;
+            width: 110px;
+            height: 60px;
+        }
+    }
+
+
+}

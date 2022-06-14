@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <link rel="stylesheet" href="./style/style-rd3.css">
+    <title>Regra de Três Online</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img class="logo-img" src="./images/logo1.png" alt="logo">
+        </div>
+
+        <nav id="nav" class="nav-menu">
+            <div class="hamburguer">
+                <div class="lines line-top"></div>
+                <div class="lines line-mid"></div>
+                <div class="lines line-bottom"></div>
+            </div>
+            <ul class="menu">
+                <li class="menu-item"><a class="link-menu-item" href="#">Início</a></li>
+                <li class="menu-item"><a class="link-menu-item" href="#">Tecnologias</a></li>
+                <li class="menu-item"><a class="link-menu-item" href="#">Cálculos</a></li>
+                <li class="menu-item"><a class="link-menu-item" href="#">Strings</a></li>
+                <li class="menu-item"><a class="link-menu-item" href="#">Contato</a></li>
+                <li class="redeSocial">
+                    <a href=""><img class="icone" src="./images/instagram1.png" alt="Instagram"></a>
+                    <a href=""><img class="icone" src="./images/facebook1.png" alt="Facebook"></a>
+                    <a href=""><img class="icone" src="./images/whatsapp1.png" alt="Whatsapp"></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="section-rd3">
+        <div class="texto-rd3">
+            <h2>REGRA DE TRÊS <br> DIRETA E INDIRETAMENTE PROPORCIONAIS</h2>
+            <hr>
+            <br>
+            <P>
+                <strong>A relação das grandezas.</strong> <br>
+                Uma análise sempre necessária antes de “sair calculando” a regra de três é verificar se as variáveis são
+                <strong>diretamente proporcionais</strong> ou se são <strong>inversamente proporcionais</strong>.
+                Dizemos que as variáveis são <strong>diretamente proporcionais</strong> quando o <strong>
+                    aumento de uma variável ocasiona o
+                    aumento da outra
+                </strong>, ao passo que as variáveis são <strong>inversamente proporcionais</strong> quando o <strong>
+                    aumento de uma faz
+                    com que a outra diminua
+                </strong>.
+            </P>
+            <br>
+            <p>
+                <strong>Exemplificando:</strong> <br>
+
+                A <strong>velocidade média</strong> e o <strong>tempo</strong> de chegada no destino são variáveis
+                <strong>inversamente proporcionais</strong>, afinal
+                quanto maior a velocidade, mais rápido se chega (menos tempo).
+
+                Já a <strong>distância</strong> e o <strong>tempo</strong> (considerando uma velocidade média constante)
+                são variáveis <strong>
+                    diretamente
+                    proporcionais
+                </strong>, uma vez que quanto mais longe for (mais distante), maior será o tempo para se chegar ao
+                destino.
+            </p>
+            <br>
+            <hr>
+        </div>
+        <div class="div-rd3">
+            <div class="rd3">
+                <h2><strong>DIRETAMENTE PROPORCIONAL</strong></h2> <br>
+                <p>
+                    <strong>Regra de Três Simples:</strong> as grandezas são diretamente proporcionais quando aumentamos
+                    em
+                    uma das gradezas, a outra grandeza também aumenta proporcionalmente, e vice-versa.
+                </p>
+                <div class="input">
+                    <div class="calc-rd3">
+                        <input type="number" name="n1s" id="n1s" placeholder="A" class="input-num">
+                        <span>Está para</span>
+                        <input type="number" name="n2s" id="n2s" placeholder="B" class="input-num">
+                    </div>
+                    <div id="assimcomo">
+                        Assim como
+                    </div>
+                    <div class="calc-rd3">
+                        <input type="number" name="n3s" id="n3s" placeholder="C" class="input-num"
+                            onkeyup="rd3Simples()">
+                        <span>Está para</span>
+                        <div class="resultado1">
+                            X
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="rd3">
+                <h2><strong>INVERSAMENTE PROPORCIONAL</strong></h2> <br>
+                <p>
+                    <strong>Regra de Três Inversa:</strong> temos gradezas inversamente proporcionais quando aumentamos
+                    ou
+                    diminuímos uma das grandezas, a outra ocorre o contrário, se uma aumenta a outra diminui, e
+                    vice-versa.
+                </p>
+                <div class="input">
+                    <div class="calc-rd3">
+                        <input type="number" name="n1c" id="n1c" placeholder="A" class="input-num">
+                        <span>Está para</span>
+                        <input type="number" name="n2c" id="n2c" placeholder="B" class="input-num">
+                    </div>
+                    <div id="assimcomo">
+                        Assim como
+                    </div>
+                    <div class="calc-rd3">
+                        <input type="number" name="n3c" id="n3c" placeholder="C" class="input-num"
+                            onkeyup="rd3Composta()">
+                        <span>Está para</span>
+                        <div class="resultado2">
+                            X
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="texto-rd3">
+            <p>
+                É um cálculo muito utilizado para encontrar valores desconhecidos quando estamos trabalhando com
+                grandezas direta ou inversamente proporcionais. Em outras palavras, utilizamos a regra de três
+                quando
+                queremos encontrar um quarto valor tendo apenas 3 números como base. Esse método é muito aplicado
+                não
+                somente na área da matemática, da física e da química, mas também nas situações do nosso dia a dia,
+                como
+                por exemplo calcular o preço de um produto no mercado, calcular as porcentagens e outras inúmeras
+                possibilidades de cálculos.
+            <p>
+                <br><br>
+        </div>
+    </section>
+
+
+    <section>
+    </section>
+
+    <footer>
+        <div class="grid-footer">
+            <div class="informations">
+                <h3>WebCode - Sites e Sistemas Web</h3>
+                <h4>Endereço</h3>
+                    <p>
+                        Maringá-PR
+                    </p>
+            </div>
+            <nav class="nav-footer">
+
+                <ul class="socialMedias-footer">
+                    <li class="socialMedia">
+                        <a href=""><img class="iconSocialMedia-footer" src="./images/instagram1.png"
+                                alt="Instagram"></a>
+                        <a href=""><img class="iconSocialMedia-footer" src="./images/facebook1.png" alt="Facebook"></a>
+                        <a href=""><img class="iconSocialMedia-footer" src="./images/whatsapp1.png" alt="Whatsapp"></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="./script/script.js"></script>
+    <script src="./script/script-rd3.js"></script>
+</body>
+
+</html>
