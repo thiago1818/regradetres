@@ -95,6 +95,7 @@
         margin-left: 0px;
         margin-right: 0px;
     }
+
     footer {
         height: 300px;
     }
@@ -148,10 +149,27 @@
 
     .menu-footer {
         display: grid;
-        grid-template: auto auto / auto auto auto;
-        gap: 10px 30px;
+        grid-template: auto auto / auto auto auto auto;
+        padding-bottom: 0px;
     }
 
+    .titulo-footer h3 {
+        font-size: 1.5rem;
+    }
+
+    .titulo-footer h4 {
+        font-size: 1.1rem;
+    }
+
+    .menu-footer {
+        font-size: 1rem;
+        gap: 10px;
+    }
+
+    .iconeSocial-footer {
+        width: 25px;
+        margin-right: 15px;
+    }
 
 }
 
@@ -165,7 +183,7 @@
         height: 350px;
     }
 
-    .grid-footer{
+    .grid-footer {
         font-size: .2em;
     }
 
