@@ -95,7 +95,14 @@
         margin-left: 0px;
         margin-right: 0px;
     }
+    footer {
+        height: 300px;
+    }
 
+    .grid-footer {
+        grid-template: auto auto / auto;
+        gap: 20px;
+    }
 }
 
 @media screen and (max-width: 1115px) {
@@ -135,12 +142,31 @@
         padding-bottom: 20px;
     }
 
+    footer {
+        height: 330px;
+    }
+
+    .menu-footer {
+        display: grid;
+        grid-template: auto auto / auto auto auto;
+        gap: 10px 30px;
+    }
+
+
 }
 
 @media screen and (max-width: 450px) {
 
     .div-titulo h1 {
         font-size: 1.8em;
+    }
+
+    footer {
+        height: 350px;
+    }
+
+    .grid-footer{
+        font-size: .2em;
     }
 
 }
